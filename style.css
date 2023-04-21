@@ -1,0 +1,50 @@
+body {
+    background-color: #F19FA8;
+    color: #2A2A63;
+}
+
+.description {
+    font-size: 20px;
+    padding-left: 13px;
+    color: #3c386d;
+}
+
+.work-content {
+    flex-direction: column;
+}
+
+.margin-desktop {
+    margin: 20px 0;
+}
+
+.skills-svg svg {
+    margin: 0 8px;
+}
+
+.bottom-line {
+    border-bottom: 5px solid #3c386d;
+}
+
+.profile-name {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+@media(min-width:768px) {
+    .work-content {
+        flex-direction: row;
+    }
+
+    .border-right {
+        border-right: 5px solid #3c386d;
+    }
+
+    .border-bottom {
+        border-bottom: 5px solid #3c386d;
+    }
+
+    .skills {
+        margin: 40px 0;
+    }
+}
